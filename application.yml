@@ -23,7 +23,7 @@ spring:
         password: 123456789
     
     jpa:
-      database: mariadb
+      database: mysql
       database-platform: org.hibernate.dialect.MariaDBDialect
       hibernate: 
         # create, create-drop, update, none create하면 서버재기동할 때마다 새로 테이블 만들어지면서 데이터 날라감, 한 번 만들고 나면 none으로 바꾸기
