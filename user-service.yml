@@ -1,0 +1,2 @@
+jwt:
+  secret: syjjj-super-secret-key-for-jwt-123456789
