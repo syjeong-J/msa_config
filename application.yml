@@ -23,18 +23,14 @@ spring:
         password: 123456789
     
     jpa:
+      database: mariadb
+      database-platform: org.hibernate.dialect.MariaDBDialect
       hibernate: 
         # create, create-drop, update, none create하면 서버재기동할 때마다 새로 테이블 만들어지면서 데이터 날라감, 한 번 만들고 나면 none으로 바꾸기
         ddl-auto: create
       # 콘솔출력
       show-sql: true  
-      properties:
-        hibernate:
-          # h2
-          # dialect: org.hibernate.dialect.H2Dialect
-          # mariadb
-          dialect: org.hibernate.dialect.MariaDBDialect
-          format_sql: true
+    
 
     data:
         redis:
