@@ -18,7 +18,7 @@ spring:
     # mariadb 설정        
     datasource:
         driver-class-name: org.mariadb.jdbc.Driver
-        url: jdbc:mariadb://lgcns-syjeong.cpewmmqqi00g.us-west-2.rds.amazonaws.com/inspire
+        url: jdbc:mariadb://lgcns-syjeong.cpewmmqqi00g.us-west-2.rds.amazonaws.com/inspire?useSSL=true&requireSSL=true
         username: root
         password: 123456789
     
