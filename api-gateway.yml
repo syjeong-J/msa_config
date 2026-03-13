@@ -53,8 +53,8 @@ spring:
 jwt:
   secret: syjjj-super-secret-key-for-jwt-123456789
 
-# eureka server 
-eureka:
-    client:
-        serviceUrl:
-            defaultZone: http://localhost:8761/eureka
+# # eureka server 
+# eureka:
+#     client:
+#         serviceUrl:
+#             defaultZone: http://localhost:8761/eureka
