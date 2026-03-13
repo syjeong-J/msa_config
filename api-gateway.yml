@@ -26,7 +26,7 @@ spring:
                 # browser : http://server.XXXX.shop/user-service/users/signIn
                 # inner   : http://server.XXXX.shop/users/signIn
                 - StripPrefix=1
-              uri: lb://user-service
+              uri: http://user-service
 
             - id: product-service
               predicates: 
@@ -36,7 +36,7 @@ spring:
                 # browser : http://server.XXXX.shop/product-service/product/create
                 # inner   : http://server.XXXX.shop/product/create
                 - StripPrefix=1
-              uri: lb://product-service
+              uri: http://product-service
             
             - id: order-service
               predicates: 
@@ -46,7 +46,7 @@ spring:
                 # browser : http://server.XXXX.shop/order-service/order/create
                 # inner   : http://server.XXXX.shop/order/create
                 - StripPrefix=1
-              uri: lb://order-service
+              uri: http://order-service
                  
                   
 
