@@ -16,7 +16,7 @@ spring:
         username: root
         password: 123456789
         hikari:
-            maximum-pool-size: 10
+            maximum-pool-size: 3
     
     jpa:
       database: mysql
