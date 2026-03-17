@@ -1,6 +1,6 @@
 server:
-    # 0 : eureka server 의해서 임의 포트가 할당됨(spring server)
-    port: 0
+    
+    port: 8080
 
 spring:
     rabbitmq: 
